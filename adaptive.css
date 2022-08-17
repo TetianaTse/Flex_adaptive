@@ -1,0 +1,345 @@
+@media screen and (max-width: 1200px) {
+    .main-banner.flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-title {
+        margin: 0 auto;
+        max-width: 80%;
+        text-align: center;
+    }
+    .main-img {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .header-btn {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .header.flex {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .header-nav {
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .main-title h1 {
+        font-size: 55px;
+        line-height: 60px;
+    }
+    .companies-title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .services-list {
+        display: block;
+        text-align: center;
+        padding: 50px 0;
+    }
+    .services-info {
+        max-width: 100%;
+    }
+    .services-info h3,
+    .info-text,
+    .info_small-text,
+    .services-list_reverce h3 {
+        margin: 0 auto 20px;
+    }
+    .services-list_reverce {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0;
+    }
+    .services-img {
+        order: 2;
+    }
+    .services-info_reverce {
+        padding: 0;
+        text-align: center;
+    }
+    .grade-block {
+        display: block;
+        text-align: center;
+    }
+    .grade-text {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .grade-logo {
+        display: block;
+        margin: 0 auto;
+    }
+    .tools {
+        padding-bottom: 50px;
+    }
+    .tools-picture h2 {
+        font-size: 50px;
+        line-height: 65px;
+        max-width: 80%;
+        padding-top: 50px;
+    }
+    .tools-picture p {
+        max-width: 65%;
+    }
+    .block-peach {
+        padding: 50px 0;
+    }
+    .block-peach_text h2 {
+        font-size: 50px;
+        line-height: 65px;
+    }
+    .case-list {
+        display: block;
+        padding-bottom: 50px;
+    }
+    .case-studies {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .case-text {
+        max-width: 100%;
+    }
+    .case-products {
+        display: inline-block;
+        padding: 50px;
+        width: calc(50% - 3px);
+        vertical-align: top;
+    }
+}
+@media screen and (max-width: 768px) {
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+    .header-nav {
+        padding: 20px 5px 0 0;
+    }
+    .header-list {
+        gap: 15px;
+    }
+    .header-list li {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .main-content {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .main-title h1 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .title-text {
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 30px;
+    }
+    .companies {
+        margin: 30px 0;
+    }
+    .companies-title {
+        font-size: 35px;
+        line-height: 40px;
+        padding: 50px 0;
+        max-width: 80%;
+    }
+    .companies_list {
+        gap: 84px;
+        justify-content: space-evenly;
+        padding-bottom: 30px;
+    }
+    .services-list {
+        padding: 30px;
+    }
+    .services-info h3,
+    .services-list_reverce h3 {
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 40px;
+        max-width: 90%;
+    }
+    .services-info h3,
+    .info-text,
+    .info_small-text,
+    .services-list_reverce h3 {
+        max-width: 95%;
+    }
+    .apps {
+        padding-bottom: 30px;
+    }
+    .apps h3 {
+        font-size: 35px;
+        line-height: 40px;
+        padding: 30px 0;
+    }
+    .apps-list {
+        gap: 50px;
+    }
+    .apps-list_cards img {
+        width: 60%;
+    }
+    .localization {
+        padding-bottom: 30px;
+    }
+    .localization h3 {
+        font-size: 35px;
+        line-height: 40px;
+        padding: 30px 0;
+    }
+    .localization-list {
+        display: block;
+    }
+    .localization_cards {
+        max-width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+    }
+    .localization_cards img {
+        width: 50%;
+    }
+    .developers_title {
+        padding: 35px 0;
+    }
+    .reviews {
+        padding-bottom: 30px;
+    }
+    .reviews-block {
+        flex-direction: column;
+        align-items: center;
+    }
+    .reviews-text {
+        padding: 30px 20px;
+        order: 2;
+    }
+    .reviews-text img {
+        width: 50%;
+    }
+    .reviews-photo {
+        padding-top: 30px;
+    }
+    .grade {
+        padding: 30px 0;
+    }
+    .grade img {
+        width: 40%;
+    }
+    .grade-text {
+        font-size: 30px;
+        line-height: 35px;
+        padding: 30px 0;
+        border: none;
+    }
+    .tools-picture {
+        padding: 0;
+    }
+    .tools-picture h2 {
+        font-size: 35px;
+        line-height: 40px;
+        padding-bottom: 10px;
+    }
+    .block-peach_text h2 {
+        font-size: 35px;
+        line-height: 40px;
+        max-width: 80%;
+    }
+    .case {
+        padding-top: 30px;
+    }
+    .case-list {
+        padding-bottom: 10px;
+    }
+    .case-specialize {
+        width: 50%;
+    }
+    .case-text {
+        text-align: center;
+    }
+    .footer-info {
+        padding: 30px 0;
+    }
+    .footer-info img {
+        width: 30%;
+        display: block;
+    }
+    .footer-logo {
+        width: 50%;
+    }
+    .footer-logo p {
+        padding: 10px 0;
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header-list {
+        flex-direction: column;
+    }
+    .header-btn {
+        margin: 20px 0;
+    }
+    .main-title h1,
+    .tools-picture h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .title-text {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .main-btn-try,
+    .main-btn-log {
+        line-height: 45px;
+        width: 160px;
+        padding: 0;
+        margin: 5px 0;
+    }
+    .companies-title,
+    .services-info h3,
+    .services-list_reverce h3,
+    .apps h3,
+    .localization h3,
+    .reviews-text_main,
+    .grade-text,
+    .block-peach_text h2,
+    .case-studies h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .companies_list {
+        gap: 71px;
+    }
+    .services-list {
+        padding: 0;
+    }
+    .tools-picture p {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .case-products {
+        padding: 24px;
+    }
+    .footer-text {
+        padding:0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header-btn {
+        text-align: center;
+    }
+    .btn-log {
+        margin: 10px 0;
+    }
+    .case-products {
+        padding: 10px;
+    }
+}
