@@ -65,6 +65,7 @@ form {
     line-height: 45px;
     padding: 0px 36px;
     margin-right: 10px;
+    color:#000000;
 }
 
 
@@ -120,6 +121,7 @@ form {
     line-height: 60px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     padding: 0 29px;
+    color:#000000;
 }
 .text-small {
     font-size: 15px;
